@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>VanityPortal | Services</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"><span>Vanity</span>Portal</div>
+        <div class="section first">
+            <a><img src="img/immagine.png" class="icon">Dashboard</a>
+            <a class="active"><img src="img/immagine.png" class="icon">Services</a>
+            <a><img src="img/immagine.png" class="icon">Account</a>
+            <a><img src="img/immagine.png" class="icon">Edit Details</a>
+            <a><img src="img/immagine.png" class="icon">Billing</a>
+            <a><img src="img/immagine.png" class="icon">Affiliates</a>
+            <a><img src="img/immagine.png" class="icon">Security</a>
+        </div>
+
+        <div class="section second">
+            <a><img src="img/immagine.png" class="icon">Help Center</a>
+            <a><img src="img/immagine.png" class="icon">Tickets</a>
+            <a><img src="img/immagine.png" class="icon">Downloads</a>
+        </div>
+
+        <div class="section third">
+            <a><img src="img/change-account.png" class="icon">Change Account</a>
+            <a><img src="img/logout.png" class="icon">Logout</a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="left-navbar">
+            <button id="dropdown" class="dropdown-btn" onclick="dropdownMenu()">Menu</button>
+            <div class="dropdown" id="dropdown-content">
+                <a><img src="img/immagine.png" class="icon">Dashboard</a>
+                <a class="active"><img src="img/immagine.png" class="icon">Services</a>
+                <a><img src="img/immagine.png" class="icon">Account</a>
+                <a><img src="img/immagine.png" class="icon">Edit Details</a>
+                <a><img src="img/immagine.png" class="icon">Billing</a>
+                <a><img src="img/immagine.png" class="icon">Affiliates</a>
+                <a><img src="img/immagine.png" class="icon">Security</a>
+                <a><img src="img/immagine.png" class="icon">Help Center</a>
+                <a><img src="img/immagine.png" class="icon">Tickets</a>
+                <a><img src="img/immagine.png" class="icon">Downloads</a>
+            </div>
+        </div>
+        <p class="logo"><span>Vanity</span>Portal</p>
+        <div class="right-navbar">
+            <button><img src="img/logout.png" class="icon" alt="Logout"></button>
+            <button><img src="img/change-account.png" class="icon" alt="Change Account"></button>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="left-page">
+            <div class="box product-line">
+                <p class="title">Product Lines</p>
+                <ul>
+                    <li><p>Minecraft Server Hosting</p></li>
+                    <li><p>VPS Lineup</p></li>
+                    <ul><li><p>Dedicated Server</p></li></ul>
+                </ul>
+            </div>
+            <div class="box empty-box-1">
+                <!--Empty box 1-->
+            </div>
+            <div class="box empty-box-2">
+                <!--Empty box 2-->
+            </div>
+        </div>
+        <div class="right-page">
+            <div class="box server">
+                <div class="left-server">
+
+                    <div class="section cpu">
+                        <p class="title">CPU</p>
+                        <button class="active">
+                            <p class="title">AMD Ryzen 9 5950X</p>
+                            <p class="subtitle">16o/32t @ 3.4GHz/4.9 GHz</p>
+                        </button>
+                        <button>
+                            <p class="title">AMD Ryzen 9 3090X</p>
+                            <p class="subtitle">16o232t @ 3.4GHz/4.9GHz</p>
+                        </button>
+                        <button>
+                            <p class="title">AMD Ryzen 9 5900X</p>
+                            <p class="subtitle">16o/32t & 3.4GHz/4.9GHz</p>
+                        </button>
+                    </div>
+
+                    <div class="section memory">
+                        <p class="title">Memory</p>
+                        <div class="btn-group mq-cancel-btn-1">
+                            <button class="active">
+                                <p class="title">128GB DDR4</p>
+                            </button>
+                            <button>
+                                <p class="title">64GB DDR4</p>
+                            </button>
+                            <button>
+                                <p class="title">256GB DDR4</p>
+                            </button>
+                            <button>
+                                <p class="title">32GB DDR4</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-server">
+                    <div class="upper">
+                        <div class="section disk-space">
+                            <p class="title">Disk Space</p>
+                            <div class="btn-group mq-cancel-btn-1">
+                                <button class="active">
+                                    <p class="title">2x 1TB NVMe</p>
+                                </button>
+                                <button>
+                                    <p class="title">1x 1TB NVMe</p>
+                                </button>
+                                <button>
+                                    <p class="title">2x 3.4TB NVMe</p>
+                                </button>
+                                <button>
+                                    <p class="title">2x 512GB SSD</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="section location">
+                            <p class="title">Location</p>
+                            <div class="btn-group mq-cancel-btn-2">
+                                <button class="active">
+                                    <p class="title">New York</p>
+                                </button>
+                                <button>
+                                    <p class="title">Chicago</p>
+                                </button>
+                                <button>
+                                    <p class="title">Utah</p>
+                                </button>
+                                <button>
+                                    <p class="title">Los Angeles</p>
+                                </button>
+                                <button>
+                                    <p class="title">Dallas</p>
+                                </button>
+                                <button>
+                                    <p class="title">UK</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section range">
+                        <p class="title">Location</p>
+                        <input type="range" min="1" max="6" class="selector">
+                        <div class="value">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><p class="logo"><span>Vanity</span>Portal</p></div>
+    </div>
+
+    <script>
+        function dropdownMenu() {
+            document.getElementById("dropdown-content").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    } 
+                }
+            }
+        }
+
+        function test() {
+            alert("amongus")
+        }
+    </script>
+
+</body>
+</html>

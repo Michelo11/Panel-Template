@@ -1,0 +1,96 @@
+@media screen and (max-height: 782px) {
+    .section.third {
+        position: static;
+    }
+    .section.third::before {margin-top: 25px;}
+}
+
+@media screen and (max-width: 1660px) {
+    .server {width: calc(95% - 100px - 2px) !important} /*95% = total width*/ /*100px = padding*2 */ /*2px = border*2 */
+}
+
+@media screen and (max-width: 1432px) {
+    .upper {width: 90%}
+}
+
+@media screen and (max-width: 1414px) {
+    .left-server,
+    .right-server {width: calc(50% - 10px)}
+    .upper {width: 100%}
+}
+
+@media screen and (max-width: 1378px) {
+    .server {
+        padding: 10px 10px !important;
+        width: calc(95% - 20px - 2px) !important; /*95% = total width*/ /*20px = padding*2 */ /*2px = border*2 */
+    }
+    .empty-box-1 {height: 130px}
+    .empty-box-2 {height: 110px}
+}
+
+@media screen and (max-width: 1258px) {
+    .btn-group.mq-cancel-btn-1 button {
+        width: 96%;
+        margin: 5px 2%;
+    }
+    .disk-space {margin-bottom: 68px;}
+    .empty-box-1 {height: 160px}
+    .empty-box-2 {height: 140px}
+}
+
+@media screen and (max-width: 1089px) {
+    .sidebar {width: 280px}
+    .page {
+        margin-left: 281px;
+        width: calc(100% - 296px - 20px);
+        padding-left: 15px;
+    }
+    .section.third {width: 280px}
+}
+
+@media screen and (max-width: 1034px) {
+    .left-page,
+    .right-page {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .sidebar {width: 210px;}
+    .page {
+        margin-left: 211px;
+        width: calc(100% - 226px - 20px);
+        padding-left: 10px;
+    }
+    .section.third {width: 210px}
+    .right-page,
+    .left-page {padding-top: 20px}
+}
+
+
+@media screen and (max-width: 749px) {
+    .page {width: calc(100% - 2px); margin-left: 0; padding-left: 2px;}
+    .sidebar {display: none;}
+    .left-page {padding-top: 80px;}
+    .navbar {display: block;}
+    .server {padding-top: 20px !important;}
+}
+
+@media screen and (max-width: 479px) {
+    .navbar .logo {display: none}
+    .right-navbar,
+    .left-navbar {width: 50%}
+    .footer {display: block;}
+    .left-page,
+    .right-page {padding-top: 60px; padding-bottom: 30px;}
+}
+
+@media screen and (max-width: 505px) {
+    .btn-group.mq-cancel-btn-2 button {
+        width: 96%;
+        margin: 5px 2%;
+    }
+    .section.range {width: 202%; margin-left: -105%;}
+    .section.location {margin-bottom: 60px;}
+}
